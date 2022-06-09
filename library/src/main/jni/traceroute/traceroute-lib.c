@@ -152,7 +152,7 @@ void *do_execute(void *args) {
     return NULL;
 }
 
-JNIEXPORT jint JNICALL Java_com_wandroid_traceroute_TraceRoute_execute
+JNIEXPORT jint JNICALL Java_com_android_traceroute_TraceRoute_execute
         (JNIEnv *env, jobject jthis, jobjectArray jarray) {
     LOGD("start traceroute");
     j_java_cls = (*env)->NewGlobalRef(env, jthis);

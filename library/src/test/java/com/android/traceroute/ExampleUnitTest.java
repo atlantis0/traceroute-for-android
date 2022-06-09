@@ -1,4 +1,4 @@
-package com.wandroid.traceroute;
+package com.android.traceroute;
 
 import org.junit.Test;
 

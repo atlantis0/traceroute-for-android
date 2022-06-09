@@ -71,7 +71,7 @@
 #define MAX_GATEWAYS_6	127
 #define DEF_HOPS	30
 #define DEF_SIM_PROBES	16	/*  including several hops   */
-#define DEF_NUM_PROBES	3
+#define DEF_NUM_PROBES	1
 #define DEF_WAIT_SECS	5.0
 #define DEF_HERE_FACTOR	3
 #define DEF_NEAR_FACTOR	10
@@ -108,7 +108,7 @@ static size_t header_len = 0;
 static size_t data_len = 0;
 
 static int dontfrag = 0;
-static int noresolve = 0;
+static int noresolve = 1;
 static int extension = 0;
 static int as_lookups = 0;
 static unsigned int dst_port_seq = 0;

@@ -1,12 +1,10 @@
-package com.wandroid.traceroute.sample
+package com.android.traceroute.sample
 
-import android.support.test.InstrumentationRegistry
-import android.support.test.runner.AndroidJUnit4
-
-import org.junit.Test
-import org.junit.runner.RunWith
-
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.Assert.*
+import androidx.test.InstrumentationRegistry;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 /**
  * Instrumented test, which will execute on an Android device.
